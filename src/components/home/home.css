@@ -20,6 +20,18 @@
     color: var(--title-color);
 }
 
+.home__social-icon:nth-child(1){
+    color: royalblue;
+}
+
+.home__social-icon:nth-child(2){
+    color: gold;
+}
+
+.home__social-icon:nth-child(3){
+    color: lightblue;
+}
+
 .home__social-icon:hover{
     color: var(--title-color-dark);
 }
@@ -96,8 +108,14 @@
 .home__scroll{
     position: absolute;
     bottom: 10%;
-    left: 40%;
+    left: 45%;
 }
+
+.home__scroll-name:hover{
+    transition: 0.3s;
+    color: goldenrod;
+}
+
 .wheel{
     animation: scroll 2s ease infinite;
 }
@@ -211,7 +229,7 @@
     }
 
     .home__social-icon{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .home__title{

@@ -4,7 +4,6 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
 }
 
 .nav{
@@ -20,11 +19,17 @@
 .nav_toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .nav__list{
     display: flex;
     column-gap: 2rem;
+    background-image: url("../../assets/background.jpg");
+    padding: 0.25rem 2.5rem;
+    border-radius: 0.5rem;
 }
 
 .nav__link{
@@ -35,6 +40,9 @@
     color:var(--title-color);
     font-weight: var(--font-medium);
     transition: .3s;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .nav__close{
@@ -70,12 +78,14 @@
 
     .show-menu{
         bottom: 0;
+        background-image: url("../../assets/background.jpg");
     }
 
     .nav__list{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 2rem;
+        padding: 0.25rem;
     }
 
     .nav__icon{
