@@ -52,7 +52,7 @@ const Data=()=>{
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home_subtitle">Full Stack Software Developer / AI ML Developer</h3>
+            <h3 className="home_subtitle">Full Stack Software Developer <br/> AI ML Developer</h3>
             <p className="home__description">I'm a dedicated Full Stack Developer and AI/ML enthusiast passionate about creating innovative software solutions and driving technological advancement.</p>
             <a href="#contact" className="button button--flex">
                 Let's Connect

@@ -94,11 +94,14 @@
 
     .nav__close{
         position: absolute;
-        right: 1.3rem;
-        bottom:.5rem;
+        bottom: .5rem;
         font-size: 1.5rem;
         cursor: pointer;
-        color: var(--title-color);
+        color: white;
+        left: 47.5%;
+        background-color: black;
+        border-radius: 1.5rem;
+        padding: 0 0.25rem;
     }
 
     .nav__close:hover{
@@ -125,5 +128,9 @@
 
     .nav__list{
         column-gap: 0;
+    }
+
+    .nav__link{
+        margin: 0.5rem;
     }
 }
